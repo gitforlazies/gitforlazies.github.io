@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+	<title>Git for Lazies</title>
+	<subtitle>Git for Lazies is a modern and opinionated approach of Git usage, Git ops workflows, release management, auto changelog generation and increases dev productivity without technical debt creation</subtitle>
+	<link href="https://gitforlazies.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://gitforlazies.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-12-09T13:49:54+00:00</updated>
+	<id>https://gitforlazies.github.io/atom.xml</id>
+	<entry xml:lang="fr">
+		<title>Authors</title>
+		<published>2021-12-09T13:49:54+00:00</published>
+		<updated>2021-12-09T13:49:54+00:00</updated>
+		<link href="https://gitforlazies.github.io/authors/pierre-baconnier/" type="text/html"/>
+		<id>https://gitforlazies.github.io/authors/pierre-baconnier/</id>
+		<content type="html">&lt;p&gt;Creator of https:&#x2F;&#x2F;github.com&#x2F;gitforlazies&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;gitforlazies&#x2F;gitforlazies.github.io&quot;&gt;@gitforlazies&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Continuous Delivery best practices</title>
+		<published>2021-12-09T13:49:54+00:00</published>
+		<updated>2021-12-09T13:49:54+00:00</updated>
+		<link href="https://gitforlazies.github.io/blog/cd/" type="text/html"/>
+		<id>https://gitforlazies.github.io/blog/cd/</id>
+		<content type="html">&lt;h2 id=&quot;continuous-delivery-best-practices&quot;&gt;Continuous Delivery best practices&lt;&#x2F;h2&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Continuous Integration best practices</title>
+		<published>2021-12-09T13:49:54+00:00</published>
+		<updated>2021-12-09T13:49:54+00:00</updated>
+		<link href="https://gitforlazies.github.io/blog/ci/" type="text/html"/>
+		<id>https://gitforlazies.github.io/blog/ci/</id>
+		<content type="html">&lt;h2 id=&quot;continuous-integration-best-practices&quot;&gt;Continuous Integration best practices&lt;&#x2F;h2&gt;
+&lt;p&gt;Un pipeline de CI devrait toujours sortir un container en fin d&#x27;exécution.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Commit linters</title>
+		<published>2021-12-09T13:49:54+00:00</published>
+		<updated>2021-12-09T13:49:54+00:00</updated>
+		<link href="https://gitforlazies.github.io/blog/commitlint/" type="text/html"/>
+		<id>https://gitforlazies.github.io/blog/commitlint/</id>
+		<content type="html">&lt;h2 id=&quot;commitlint&quot;&gt;commitlint&lt;&#x2F;h2&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Conventional commits</title>
+		<published>2021-12-09T13:49:54+00:00</published>
+		<updated>2021-12-09T13:49:54+00:00</updated>
+		<link href="https://gitforlazies.github.io/blog/conventional-commits/" type="text/html"/>
+		<id>https://gitforlazies.github.io/blog/conventional-commits/</id>
+		<content type="html">&lt;h2 id=&quot;conventionalcommits&quot;&gt;conventionalcommits&lt;&#x2F;h2&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Git conventions</title>
+		<published>2021-12-09T13:49:54+00:00</published>
+		<updated>2021-12-09T13:49:54+00:00</updated>
+		<link href="https://gitforlazies.github.io/blog/conventions/" type="text/html"/>
+		<id>https://gitforlazies.github.io/blog/conventions/</id>
+		<content type="html">&lt;h2 id=&quot;git-conventions&quot;&gt;Git conventions&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;semver.org&#x2F;&quot;&gt;Norme Semver&lt;&#x2F;a&gt; pour le versionnement sémantique.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Git delouse</title>
+		<published>2021-12-09T13:49:54+00:00</published>
+		<updated>2021-12-09T13:49:54+00:00</updated>
+		<link href="https://gitforlazies.github.io/blog/delouse/" type="text/html"/>
+		<id>https://gitforlazies.github.io/blog/delouse/</id>
+		<content type="html">&lt;h2 id=&quot;git-delouse-kezako&quot;&gt;Git delouse, kezako ?&lt;&#x2F;h2&gt;
+&lt;p&gt;Pourquoi diviser un commit ? &lt;&#x2F;p&gt;
+&lt;p&gt;Par exemple, supposons que vous ajoutez une correction de bogue mais que vous renommez également une variable pour lui donner une signification plus claire. 
+Lorsque vous soumettez le code pour révision, vous réalisez que le renommage de la variable ajoute beaucoup de bruit à la modification réelle.
+Vous pouvez alors décider que c&#x27;est une bonne idée de diviser ce commit en deux parties: une qui change atomiquement le nom de la variable partout, et une qui corrige le bug. Vous pouvez alors pointer vers le commit de correction de bogue lorsque vous effectuerez une pull request.&lt;&#x2F;p&gt;
+&lt;p&gt;Comment ça marche ?&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; commit&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; -m &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;fix: bugfix for login screen&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;#39;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# Error, I should&amp;#39;ve split this one up. Let&amp;#39;s start over!
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; delouse
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; add&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; -p    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# Just pick the bugfix bits
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; fixup
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; add&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; -p    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# Add changes of indexing zone
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; commit&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; -m &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;refacto: rename variable name to be clearer&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;#39;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Git fixup</title>
+		<published>2021-12-09T13:49:54+00:00</published>
+		<updated>2021-12-09T13:49:54+00:00</updated>
+		<link href="https://gitforlazies.github.io/blog/fixup/" type="text/html"/>
+		<id>https://gitforlazies.github.io/blog/fixup/</id>
+		<content type="html">&lt;h2 id=&quot;git-fixup-kezako&quot;&gt;Git fixup, kezako ?&lt;&#x2F;h2&gt;
+&lt;p&gt;Vous êtes probablement familier avec &lt;code&gt;git commit --amend&lt;&#x2F;code&gt; pour incorporer les changements en cours dans le dernier commit(&lt;em&gt;lastcommit&lt;&#x2F;em&gt;), réécrivant le dernier commit et en générant un nouveau, d&#x27;un digest différent. 
+La toolbox git offre une commande similaire appelée &lt;code&gt;git fixup&lt;&#x2F;code&gt;, qui fera la même chose, mais sans demander le message du commit.&lt;&#x2F;p&gt;
+&lt;p&gt;Il s&#x27;agit donc d&#x27;une version plus rapide de &lt;code&gt;commit --amend&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;n.b: Cette action est aussi accessible depuis l&#x27;éditeur de rebase:&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# f, fixup [-C | -c] &amp;lt;commit&amp;gt; = like &amp;quot;squash&amp;quot; but keep only the previous
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Comment ça marche ?&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; add&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; -p    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# Pick bits to commit
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; commit
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; add&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; -p    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# Add changes of indexing zone
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; fixup     &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# Add those to the last commit
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Pre-commit</title>
+		<published>2021-12-09T13:49:54+00:00</published>
+		<updated>2021-12-09T13:49:54+00:00</updated>
+		<link href="https://gitforlazies.github.io/blog/pre-commit/" type="text/html"/>
+		<id>https://gitforlazies.github.io/blog/pre-commit/</id>
+		<content type="html">&lt;h2 id=&quot;pre-commit&quot;&gt;Pre-commit&lt;&#x2F;h2&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Release Management Part 1: Definition</title>
+		<published>2021-12-09T13:49:54+00:00</published>
+		<updated>2021-12-09T13:49:54+00:00</updated>
+		<link href="https://gitforlazies.github.io/blog/release-management1/" type="text/html"/>
+		<id>https://gitforlazies.github.io/blog/release-management1/</id>
+		<content type="html">&lt;h2 id=&quot;le-release-management-kezako&quot;&gt;Le release management, kezako ?&lt;&#x2F;h2&gt;
+&lt;p&gt;One of means based on the &lt;a href=&quot;https:&#x2F;&#x2F;dictionary.cambridge.org&#x2F;dictionary&#x2F;english&#x2F;release&quot;&gt;Cambridge Dictionary&lt;&#x2F;a&gt;: &lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;To move a device from a fixed position to allow it to move freely&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;git-release&quot;&gt;Git release&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;approche-naive&quot;&gt;Approche naïve&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;the-minor-tag&quot;&gt;The minor tag&lt;&#x2F;h4&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;gitforlazies.github.io&#x2F;blog&#x2F;minor.png&quot; alt=&quot;minor tag img&quot;&gt; 
+&lt;h4 id=&quot;the-patch-tag&quot;&gt;The patch tag&lt;&#x2F;h4&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;gitforlazies.github.io&#x2F;blog&#x2F;patch.png&quot; alt=&quot;patch tag img&quot;&gt; 
+&lt;h4 id=&quot;the-major-tag&quot;&gt;The major tag&lt;&#x2F;h4&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;gitforlazies.github.io&#x2F;blog&#x2F;major.png&quot; alt=&quot;major tag img&quot;&gt; 
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Release Management Part 2: Merge Strategy</title>
+		<published>2021-12-09T13:49:54+00:00</published>
+		<updated>2021-12-09T13:49:54+00:00</updated>
+		<link href="https://gitforlazies.github.io/blog/release-management2/" type="text/html"/>
+		<id>https://gitforlazies.github.io/blog/release-management2/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Release Management Part 3: Changelog</title>
+		<published>2021-12-09T13:49:54+00:00</published>
+		<updated>2021-12-09T13:49:54+00:00</updated>
+		<link href="https://gitforlazies.github.io/blog/release-management3/" type="text/html"/>
+		<id>https://gitforlazies.github.io/blog/release-management3/</id>
+		<content type="html">&lt;h2 id=&quot;release-management-part-3-changelog&quot;&gt;Release Management Part 3: Changelog&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;then&quot;&gt;Then ...&lt;&#x2F;h3&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;gitforlazies.github.io&#x2F;blog&#x2F;ops_problem.png&quot; alt=&quot;ops_problem img&quot;&gt;</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Technical debt is real debt</title>
+		<published>2021-12-09T13:49:54+00:00</published>
+		<updated>2021-12-09T13:49:54+00:00</updated>
+		<link href="https://gitforlazies.github.io/blog/technical-debt-is-real-debt/" type="text/html"/>
+		<id>https://gitforlazies.github.io/blog/technical-debt-is-real-debt/</id>
+		<content type="html">&lt;h2 id=&quot;technical-debt-is-real-debt&quot;&gt;Technical debt is real debt&lt;&#x2F;h2&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;gitforlazies.github.io&#x2F;blog&#x2F;technical-debt-1.png&quot; alt=&quot;technical-debt-1 img&quot;&gt; 
+&lt;img src=&quot;https:&#x2F;&#x2F;gitforlazies.github.io&#x2F;blog&#x2F;technical-debt-2.png&quot; alt=&quot;technical-debt-2 img&quot;&gt; 
+&lt;img src=&quot;https:&#x2F;&#x2F;gitforlazies.github.io&#x2F;blog&#x2F;technical-debt-3.png&quot; alt=&quot;technical-debt-3 img&quot;&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;gitforlazies.github.io&#x2F;blog&#x2F;technical-debt-4.png&quot; alt=&quot;technical-debt-4 img&quot;&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;gitforlazies.github.io&#x2F;blog&#x2F;technical-debt-5.png&quot; alt=&quot;technical-debt-5 img&quot;&gt;</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Vim tips</title>
+		<published>2021-12-09T13:49:54+00:00</published>
+		<updated>2021-12-09T13:49:54+00:00</updated>
+		<link href="https://gitforlazies.github.io/blog/vim-tips/" type="text/html"/>
+		<id>https://gitforlazies.github.io/blog/vim-tips/</id>
+		<content type="html">&lt;h2 id=&quot;vim-tips&quot;&gt;Vim tips&lt;&#x2F;h2&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>FAQ</title>
+		<published>2021-05-01T19:30:00+00:00</published>
+		<updated>2021-05-01T19:30:00+00:00</updated>
+		<link href="https://gitforlazies.github.io/docs/help/faq/" type="text/html"/>
+		<id>https://gitforlazies.github.io/docs/help/faq/</id>
+		<content type="html">&lt;h2 id=&quot;what-is-the-adidoks&quot;&gt;What is the AdiDoks?&lt;&#x2F;h2&gt;
+&lt;p&gt;AdiDoks is a Zola theme for Documentation&#x27;s sites, ported by the Hugo Theme
+&lt;a href=&quot;https:&#x2F;&#x2F;getdoks.org&quot;&gt;Doks&lt;&#x2F;a&gt;, which is a pretty nice theme. Thanks a lot to 
+&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;h-enk&quot;&gt;&lt;em&gt;h-enk&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;, the creator of the &lt;a href=&quot;https:&#x2F;&#x2F;getdoks.org&quot;&gt;Doks&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;keyboard-shortcuts-for-search&quot;&gt;Keyboard shortcuts for search?&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;focus: &lt;code&gt;&#x2F;&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;select: &lt;code&gt;↓&lt;&#x2F;code&gt; and &lt;code&gt;↑&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;open: &lt;code&gt;Enter&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;close: &lt;code&gt;Esc&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;other-documentation&quot;&gt;Other documentation?&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;docs.netlify.com&#x2F;&quot;&gt;Netlify&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;getting-started&#x2F;overview&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;contact-the-creator&quot;&gt;Contact the creator?&lt;&#x2F;h2&gt;
+&lt;p&gt;Send &lt;em&gt;Aaran Xu&lt;&#x2F;em&gt; an E-mail:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;mailto:aaranxu@outlook.com&quot;&gt;aaranxu@outlook.com&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>
