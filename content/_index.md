@@ -1,15 +1,15 @@
 +++
-title = "Modern Kubernetes Learning"
+title = "Modern GitOps Flow"
 
 # The homepage contents
 
 [extra]
-lead = '<b>MasterClassK8S</b> is a modern and opinionated approach of Kubernetes ecosystem learning'
+lead = '<b>Git for Lazies</b> is a modern and opinionated approach of Git usage, Git ops workflows, release management, auto changelog generation and increases dev productivity without technical debt creation'
 url = "/blog/"
-url_button = "Start Learning"
+url_button = "Start"
 repo_version = "GitHub v0.1.0"
 repo_license = "Open-source MIT License."
-repo_url = "https://github.com/masterclassk8s/masterclassk8s.github.io"
+repo_url = "https://github.com/gitforlazies/gitforlazies.github.io"
 
 [[extra.list]]
 title = "Full text search"

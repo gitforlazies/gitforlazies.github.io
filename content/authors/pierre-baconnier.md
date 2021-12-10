@@ -6,6 +6,6 @@ updated = 2021-12-09T13:49:54+00:00
 draft = false
 +++
 
-Creator of https://masterclassk8s.github.io
+Creator of https://github.com/gitforlazies
 
-[@masterclassk8s](https://github.com/masterclassk8s)
+[@gitforlazies](https://github.com/gitforlazies/gitforlazies.github.io)

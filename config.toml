@@ -1,7 +1,7 @@
 # The URL the site will be built for
-base_url = "https://masterclassk8s.github.io"
-title = "MasterClass K8S"
-description = "MasterClass K8S is documentation website of eponym course using Zola Adidoks and Github Pages"
+base_url = "https://gitforlazies.github.io"
+title = "Git for Lazies"
+description = "Git for Lazies is a modern and opinionated approach of Git usage, Git ops workflows, release management, auto changelog generation and increases dev productivity without technical debt creation"
 
 # The default language; used in feeds and search index
 default_language = "fr"
@@ -42,7 +42,7 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 author = "¨Pierre Baconnier"
-github = "https://github.com/masterclassk8s/masterclassk8s.github.io"
+github = "https://github.com/gitforlazies/gitforlazies.github.io"
 email = "pierre.baconnier@outlook.fr"
 
 is_netlify = false
@@ -63,7 +63,7 @@ timezone = "Europe/Paris"
 
 # Edit page on reposity or not
 edit_page = false
-docs_repo = "https://masterclassk8s.github.io/docs"
+docs_repo = "https://gitforlazies.github.io/docs"
 repo_branch = "main"
 
 ## Math settings
@@ -82,7 +82,7 @@ og_locale = "fr_FR"
 [extra.schema]
 type = "Organization"
 logo = "logo-doks.png"
-github = "https://github.com/masterclassk8s/masterclassk8s.github.io"
+github = "https://github.com/gitforlazies/gitforlazies.github.io"
 section = "blog" # see config.extra.main~url
 ## Sitelinks Search Box
 site_links_search_box = false
@@ -91,7 +91,7 @@ site_links_search_box = false
 [[extra.menu.main]]
 name = "Docs"
 section = "docs"
-url = "/docs/getting-started/introduction/"
+url = "/docs/"
 weight = 10
 
 [[extra.menu.main]]
